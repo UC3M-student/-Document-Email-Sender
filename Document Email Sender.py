@@ -4,7 +4,7 @@ import os
 
 from email.mime.base import MIMEBase
 from email.mime.multipart import MIMEMultipart
-from email.mime.text import MIMEText
+#from email.mime.text import MIMEText
 from email import encoders
 
 email_address = os.environ.get("user1")
